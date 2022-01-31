@@ -1,9 +1,8 @@
 # example-bot-discord 
-1. Clone this repository
+1. Clone this repository 
 2. Grab a token on Discord's [developer portal](https://discord.com/developers/applications).
 3. paste your bot token in 43 line
-4. install discord.py in your project xD.
-5. Code language= python3
+4. install discord.py in your project xD #Code language= python3
 Type ```pip install discord.py``` in console
  
 **Then run your bot xD
