@@ -1,7 +1,7 @@
 # example-python-bot-discord 
 1. Clone this repository 
 2. Grab a token on Discord's [developer portal](https://discord.com/developers/applications).
-3. paste your bot token in 43 line
+3. paste your bot token in ```.env```
 4. install discord.py and colorama in your project xD
 Type ```pip install discord.py```then 
 ```pip install colorama```in console
