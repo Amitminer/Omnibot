@@ -13,3 +13,7 @@ Type=
 ***Done xD***
  
 For contact me= discord username=```Amitminer#7062```
+
+
+{✓}**To-do list._.**    
+• [×] some commands xD example=```+youtube,userinfo,serverinfo,etc.```
