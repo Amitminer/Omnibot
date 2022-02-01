@@ -1,43 +1,48 @@
 import discord
+import os
+from dotenv import load_dotenv
 from discord.ext import commands
 from discord.ext.commands import MemberConverter
 import colorama
 from colorama import Fore
 import asyncio
+from keep_alive import keep_alive
 
-import os
+load_dotenv()
 
 prefix = "+" 
 
-bot = commands.Bot(command_prefix=prefix,
+client = commands.Bot(command_prefix=prefix,
                    help_command=None,
                    case_insensitive=True,
                    self_bot=False)
 
-@bot.event
+@client.event
 async def on_ready():
-  await bot.change_presence(status=discord.Status.online, activity=discord.Game('example bot xD Amit OP'))
+  await client.change_presence(status=discord.Status.online, activity=discord.Game('example bot xD Amit OP'))
   print('Bot Is Online xD')
 
-@bot.command()
+@client.command()
 async def ping(ctx):
-  await ctx.send(f'Pong! {round (bot.latency * 1000)}ms')
+  await ctx.send(f'Pong! {round (client.latency * 1000)}ms')
 
-@bot.command()
+@client.command()
 async def test(ctx):
   await ctx.send(f'test')
   
-@bot.command()
+@client.command()
 async def help(ctx):
   embed = discord.Embed(title="commands", color=420699, description=f"**+ping**\nping command.\n\n**+say**\nsay command.")
   embed.set_image(url="https://cdn.discordapp.com/emojis/937399473636802580.gif")
   await ctx.send(embed=embed)
   
-@bot.command()
+@client.command()
 async def say(ctx, *, message):
     try:
        await ctx.send(message)
     except:
        await ctx.send("Please Give Some Message!")
-  
-bot.run('token here')
+
+keep_alive()
+TOKEN = os.getenv("DISCORD_TOKEN")
+client.run(TOKEN)
