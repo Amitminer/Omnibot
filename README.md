@@ -1,4 +1,4 @@
-# example-python-bot-discord 
+# Omnibot-discord-python 
 1. Clone this repository 
 2. Grab a token on Discord's [developer portal](https://discord.com/developers/applications).
 3. paste your bot token in ```.env```
