@@ -16,4 +16,4 @@ For contact me= discord username=```AmitxD#4871```
 
 
 {✓}**To-do list._.**    
-• [×] some commands xD example=```+youtube,userinfo,serverinfo,etc.```
+• [×] Nothing xD 
