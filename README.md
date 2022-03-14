@@ -28,4 +28,4 @@ For contact me= discord username=```AmitxD#4871```
 
 
 {✓}**To-do list._.**    
-• [×] Nothing xD 
+• [×] **suggest me new commands in [here](https://github.com/Amitminer888/Omnibot/issues/new)**
