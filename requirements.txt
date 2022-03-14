@@ -8,3 +8,4 @@ poetry-core==1.0.3
 txt==2020.11.12
 requests==2.26.0
 typing-extensions==4.1.1
+Flask==2.0.3
