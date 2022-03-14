@@ -10,7 +10,13 @@ Type=
 ```poetry run python3 -u bot.py```**
  
 ***Done xD***
- 
+
+ ## Issues or Questions
+
+If you have any issues or questions
+
+* Post them [here](https://github.com/Amitminer888/Omnibot/issues/new)
+
 For contact me= discord username=```AmitxD#4871```
 
 
