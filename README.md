@@ -3,8 +3,7 @@
 2. Grab a token on Discord's [developer portal](https://discord.com/developers/applications).
 3. paste your bot token in ```.env```
 4. install discord.py and colorama in your project xD
-Type ```pip install discord.py```then 
-```pip install colorama```in console
+Type ```pip install discord.py```in console
  
 **Then run your bot xD
 Type=
