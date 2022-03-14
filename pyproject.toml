@@ -1,15 +1,25 @@
 [tool.poetry]
-name = "project"
-version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+name = "Omnibot"
+version = "0.0.2"
+description = "a example bot"
+authors = ["AmitxD#4871"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
 discord = "^1.7.3"
-colorama = "^0.4.4"
-Flask = "^2.0.2"
 python-dotenv = "^0.19.2"
+Pillow = "^9.0.1"
+disputils = "^0.2.0"
+pymongo = "^4.0.2"
+ago = "^0.0.93"
+discord-components = "^2.1.2"
+discord-ui = "^5.1.6"
+"dislash.py" = "1.0.14"
+requests = "^2.27.1"
+colorama = "^0.4.4"
+attr = "^0.3.1"
+utils = "^1.0.1"
+Flask = "^2.0.3"
 
 [tool.poetry.dev-dependencies]
 
