@@ -24,7 +24,7 @@ If you have any issues or questions
 
 * Post them [here](https://github.com/Amitminer888/Omnibot/issues/new)
 
-For contact me= discord username=```AmitxD#0184 ```
+For contact me= discord username=```AmitxD#9059```
 
 
 {✓}**To-do list._.**    
