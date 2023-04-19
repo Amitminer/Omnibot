@@ -1,5 +1,5 @@
 # Omnibot-discord-python 
-**Python 3.8 or higher is required**
+**Python 3.11 or higher is required**
 1. Clone this repository 
 # Linux/macOS/Windows
     wget https://github.com/Amitminer888/Omnibot
