@@ -5,6 +5,11 @@ import json
 class owner(commands.Cog):
     def __init__(self, client):
         self.client = client
+    
+
+    @commands.Cog.listener()
+    async def on_ready(self):
+        print('owner cog loaded-----')
 
     conf = {}
 
@@ -17,7 +22,13 @@ class owner(commands.Cog):
         self.config = config
         global conf
         conf = config
-
+        
+    @commands.command(name='', hidden=True)
+    @commands.is_owner()
+    async def shutdown_bot(self, ctx):
+        await ctx.send('Shutting down...')
+        await self.client.close()
+        
     @commands.command(name='reloadall', hidden=True)
     @commands.is_owner()
     async def reload_all(self, ctx):
@@ -37,6 +48,7 @@ def check_cog(self, cog):
     if (cog.lower()).startswith('cogs.') == True:
       return cog.lower()
     return f'cogs.{cog.lower()}'
-    
-def setup(client):
-    client.add_cog(owner(client, client.config))
+
+
+async def setup(bot):
+    await bot.add_cog(owner(bot, bot.config))
