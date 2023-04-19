@@ -23,7 +23,7 @@ class owner(commands.Cog):
         global conf
         conf = config
         
-    @commands.command(name='', hidden=True)
+    @commands.command(name='shutdown', hidden=True)
     @commands.is_owner()
     async def shutdown_bot(self, ctx):
         await ctx.send('Shutting down...')
