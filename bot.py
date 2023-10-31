@@ -2,7 +2,7 @@ import discord
 import os
 import json
 from discord.ext import commands
-from dotenv import load_dotenv #remove this line if you are using replit 
+from dotenv import load_dotenv # remove this line if you are using replit 
 from keep_alive import keep_alive
 
 load_dotenv()

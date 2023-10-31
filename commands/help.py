@@ -2,6 +2,7 @@ import discord
 from discord.ext import commands
 
 bot_title = 'Commands'
+# Todo: show prefix from config
 bot_description = 'my prefix is +'
 bottom_info = 'made by Amit#4871'
 
@@ -21,7 +22,7 @@ class help(commands.Cog):
                       case_insensitive=True)
     async def help_command(self, ctx, *commands: str):
         bot = ctx.bot
-        embed = discord.Embed(title=bot_title, description=bot_description)
+        embed = discord.Embed(title=bot_title, description=bot_description, color=discord.Color.blue())
 
         def generate_usage(command_name):
             temp = f'+'
