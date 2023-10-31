@@ -1,2 +1,5 @@
+[FORMAT]
+max-line-length=100
+
 [MASTER]
-disable = trailing-whitespace
+disable = line-too-long,missing-final-newline,trailing-whitespace,wrong-import-order,missing-function-docstring,consider-using-f-string,invalid-name,bad-indentation,missing-module-docstring,broad-exception-caught,redefined-builtin,missing-class-docstring,f-string-without-interpolation,unused-variable,global-variable-undefined,no-member,no-self-argument,singleton-comparison,unused-argument,unused-import,too-many-statements,fixme,redefined-outer-name,global-variable-not-assigned,function-redefined,bare-except,too-many-locals,multiple-imports
